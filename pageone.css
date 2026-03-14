@@ -1,0 +1,203 @@
+body{
+margin:0;
+font-family:Segoe UI;
+background:linear-gradient(120deg,#1a0f0b,#2b1a12,#000);
+color:white;
+overflow:hidden;
+}
+
+
+/* NAVBAR */
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 60px;
+}
+
+.logo{
+color:orange;
+font-weight:bold;
+font-size:22px;
+}
+
+nav ul{
+display:flex;
+gap:30px;
+list-style:none;
+}
+
+nav ul li{
+cursor:pointer;
+transition:.3s;
+}
+
+nav ul li:hover{
+color:orange;
+}
+
+.sign{
+background:orange;
+border:none;
+padding:8px 18px;
+border-radius:6px;
+cursor:pointer;
+}
+
+
+/* MAIN */
+
+.container{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:40px 60px;
+}
+
+.left h1{
+font-size:70px;
+}
+
+.book{
+background:orange;
+border:none;
+padding:12px 30px;
+border-radius:6px;
+margin-top:20px;
+cursor:pointer;
+}
+
+.date{
+margin-top:20px;
+color:#ccc;
+}
+
+
+/* IMAGE */
+
+.right{
+position:relative;
+}
+
+.right img{
+width:450px;
+border-radius:10px;
+}
+
+.play{
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+background:white;
+color:black;
+width:60px;
+height:60px;
+border-radius:50%;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+
+/* SLIDER */
+
+.slider{
+position:absolute;
+bottom:40px;
+right:80px;
+}
+
+.slider span{
+margin:10px;
+color:gray;
+font-size:18px;
+}
+
+.slider .active{
+color:orange;
+font-size:25px;
+}
+
+
+/* SOCIAL */
+
+.social{
+position:absolute;
+bottom:40px;
+left:60px;
+}
+
+.social a{
+text-decoration:none;
+color:white;
+font-size:20px;
+margin:10px;
+}
+
+.social a:hover{
+color:orange;
+}
+
+nav ul li a{
+text-decoration:none;
+color:white;
+}
+
+nav ul li a:hover{
+color:orange;
+}
+
+/* DROPDOWN */
+
+.dropdown{
+position:relative;
+}
+
+.dropbox{
+
+display:none;
+
+position:absolute;
+
+background:black;
+
+padding:10px;
+
+border-radius:6px;
+
+top:25px;
+
+min-width:120px;
+
+box-shadow:0 0 10px black;
+
+}
+
+.dropbox a{
+
+display:block;
+
+padding:8px;
+
+text-decoration:none;
+
+color:white;
+
+}
+
+.dropbox a:hover{
+
+color:orange;
+
+}
+
+
+/* show dropdown */
+
+.dropdown:hover .dropbox{
+
+display:block;
+
+}

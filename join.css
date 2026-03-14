@@ -1,0 +1,121 @@
+body{
+
+margin:0;
+font-family:Segoe UI;
+
+background:
+linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.9)),
+url("https://wallpapercave.com/wp/wp7418483.jpg");
+
+background-size:cover;
+background-position:center;
+
+color:white;
+
+}
+
+
+/* NAVBAR */
+
+nav{
+
+display:flex;
+justify-content:space-between;
+padding:20px 40px;
+
+}
+
+.logo{
+
+color:orange;
+font-weight:bold;
+
+}
+
+nav ul{
+
+display:flex;
+gap:20px;
+list-style:none;
+
+}
+
+nav ul li a{
+
+text-decoration:none;
+color:white;
+
+}
+
+nav ul li a:hover{
+
+color:orange;
+
+}
+
+
+/* FORM */
+
+.form-box{
+
+width:300px;
+
+margin:100px auto;
+
+background:rgba(0,0,0,0.6);
+
+padding:30px;
+
+border-radius:10px;
+
+text-align:center;
+
+}
+
+
+.form-box h1{
+
+color:orange;
+
+}
+
+
+.form-box input{
+
+width:100%;
+
+padding:10px;
+
+margin:10px 0;
+
+border:none;
+
+border-radius:5px;
+
+}
+
+
+.form-box button{
+
+width:100%;
+
+padding:10px;
+
+background:orange;
+
+border:none;
+
+border-radius:5px;
+
+cursor:pointer;
+
+font-weight:bold;
+
+}
+
+.form-box button:hover{
+
+box-shadow:0 0 10px orange;
+
+}
+
